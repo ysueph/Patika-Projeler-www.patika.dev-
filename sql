@@ -9,4 +9,4 @@ or replacement_cost= 28.99 ;*/
 /* select * from customer where first_name='Mary' ; /* smith */ */
 
 /*select * from film where 
-not (length>50 and rental_rate = 2.99 or rental_rate = 4.99) ;*/
+not length>50 and (rental_rate = 2.99 or rental_rate = 4.99) ; */
