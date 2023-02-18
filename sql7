@@ -1,0 +1,19 @@
+/*CREATE TABLE employee(
+	id INTEGER PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	email VARCHAR(100),
+	birthday DATE
+);
+*/
+
+/*select * from employee;*/
+
+/*UPDATE employee
+SET name='deneme',
+	email='denemexxx@mail.com',
+	birthday='2020-10-10'
+WHERE id BETWEEN 1 AND 5;*/
+
+/*DELETE FROM employee
+WHERE id BETWEEN 1 AND 5
+RETURNING *;*/
