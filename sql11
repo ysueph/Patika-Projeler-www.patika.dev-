@@ -1,0 +1,25 @@
+/*select * from film
+where length >any
+(
+select avg(length) from film 
+);*/
+
+/*select * from film
+where rental_rate =all
+(
+select max(rental_rate ) from film 
+);*/
+
+/*select * from film
+where rental_rate =all
+(
+select min(rental_rate ) from film 
+) 
+and replacement_cost  =all
+(
+select min(replacement_cost  ) from film 
+);*/
+
+/*SELECT customer_id, COUNT(*) AS num_purchases 
+FROM payment 
+GROUP BY customer_id ORDER BY num_num_purchases DESC;*/
